@@ -31,7 +31,7 @@ class chatapp extends StatefulWidget{
 class _chatappState extends State<chatapp>{
 
   final List<String> imageList = [
-    'lib/assets/banner1.png',
+    'https://www.itca.edu.sv/wp-content/uploads/2020/08/Banner_WebSept4.png',
     'https://www.itca.edu.sv/wp-content/uploads/2020/02/BannerP_2.jpg',
     'https://www.itca.edu.sv/wp-content/uploads/2017/02/BannerWeb_Quienes.jpg',
     'https://www.itca.edu.sv/wp-content/uploads/2023/09/JuntaITCA_2023_F.jpg',
@@ -43,7 +43,7 @@ class _chatappState extends State<chatapp>{
   Widget _BScard(int value){
     String url="";
     if (value==1){
-      url= "lib/assets/zacatecoluca.png";
+      url= "https://www.itca.edu.sv/wp-content/uploads/2016/11/zacatecoluca.png";
     }else if(value == 2){
       url="https://www.itca.edu.sv/wp-content/uploads/2020/05/ITCA-REGIONAL-SANTA-ANA-INAUGURo-MODERNA-ACADEMIA-CISCO-5.jpeg";
     }else if(value == 3){
