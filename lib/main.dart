@@ -80,7 +80,7 @@ class _chatappState extends State<chatapp>{
               height: 160.0,
               child: Card(
                 child: Padding(
-                  padding: const EdgeInsets.only(left: 20.0, right: 20.0, top: 20.0),
+                  padding: const EdgeInsets.only(left: 21.0, right: 20.0, top: 20.0),
                  child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
